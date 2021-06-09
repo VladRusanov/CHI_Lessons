@@ -166,7 +166,7 @@ class Component extends React.Component {
 - getSnapshotBeforeUpdate(prevProps, prevState)
 - componentDidUpdate(prevProps, prevState, snapshot)
 
-# shouldComponentUpdate - метод, которіе определяем надо ли нашему компоненту перерендериваться
+# shouldComponentUpdate - метод, который определяет надо ли нашему компоненту перерендериваться
 Должен вернуть или true (перерендериваемся), или false (не перерендериваемся)
 
 ```
